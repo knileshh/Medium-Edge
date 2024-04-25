@@ -11,3 +11,5 @@ bun.lockb
 
 # custom
 .env
+./wrangler.toml
+backend/wrangler.toml
