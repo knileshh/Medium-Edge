@@ -2,7 +2,7 @@ import { Hono } from 'hono'
 
 const app = new Hono()
 
-app.get('/api/v1/blog', (c) => {
+app.get('/api/v1/blog/:id', (c) => {
   return c.text('Hello Hono!')
 })
 
